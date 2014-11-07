@@ -1,9 +1,5 @@
-
-// DlgHBAAnalyzerPlayer.cpp : implementation file
-//
-
 #include "stdafx.h"
-#include "HBAAnalyzerPlayer.h"
+#include "AppHBAAnalyzerPlayer.h"
 #include "DlgHBAAnalyzerPlayer.h"
 #include "afxdialogex.h"
 
@@ -12,22 +8,19 @@
 #endif
 
 
-// CDlgHBAAnalyzerPlayer dialog
-
-
-
-
 CDlgHBAAnalyzerPlayer::CDlgHBAAnalyzerPlayer(CWnd* pParent /*=NULL*/)
-	: CDialog(CDlgHBAAnalyzerPlayer::IDD, pParent)
-{
-	EnableActiveAccessibility();
+	: CDialog(CDlgHBAAnalyzerPlayer::IDD, pParent) {
+	
+    EnableActiveAccessibility();
 	m_hIcon = AfxGetApp()->LoadIcon(IDR_MAINFRAME);
 }
 
-void CDlgHBAAnalyzerPlayer::DoDataExchange(CDataExchange* pDX)
-{
-	CDialog::DoDataExchange(pDX);
+
+void CDlgHBAAnalyzerPlayer::DoDataExchange(CDataExchange* pDX) {
+	
+    CDialog::DoDataExchange(pDX);
 }
+
 
 BEGIN_MESSAGE_MAP(CDlgHBAAnalyzerPlayer, CDialog)
 	ON_WM_PAINT()
@@ -35,35 +28,25 @@ BEGIN_MESSAGE_MAP(CDlgHBAAnalyzerPlayer, CDialog)
 END_MESSAGE_MAP()
 
 
-// CDlgHBAAnalyzerPlayer message handlers
+BOOL CDlgHBAAnalyzerPlayer::OnInitDialog() {
+	
+    CDialog::OnInitDialog();
 
-BOOL CDlgHBAAnalyzerPlayer::OnInitDialog()
-{
-	CDialog::OnInitDialog();
+	SetIcon(m_hIcon, TRUE);
+	SetIcon(m_hIcon, FALSE);
 
-	// Set the icon for this dialog.  The framework does this automatically
-	//  when the application's main window is not a dialog
-	SetIcon(m_hIcon, TRUE);			// Set big icon
-	SetIcon(m_hIcon, FALSE);		// Set small icon
-
-	// TODO: Add extra initialization here
-
-	return TRUE;  // return TRUE  unless you set the focus to a control
+	return TRUE;
 }
 
-// If you add a minimize button to your dialog, you will need the code below
-//  to draw the icon.  For MFC applications using the document/view model,
-//  this is automatically done for you by the framework.
 
-void CDlgHBAAnalyzerPlayer::OnPaint()
-{
-	if (IsIconic())
-	{
-		CPaintDC dc(this); // device context for painting
+void CDlgHBAAnalyzerPlayer::OnPaint() {
+	
+    if (IsIconic()) {
+		
+        CPaintDC dc(this);
 
 		SendMessage(WM_ICONERASEBKGND, reinterpret_cast<WPARAM>(dc.GetSafeHdc()), 0);
 
-		// Center icon in client rectangle
 		int cxIcon = GetSystemMetrics(SM_CXICON);
 		int cyIcon = GetSystemMetrics(SM_CYICON);
 		CRect rect;
@@ -71,19 +54,16 @@ void CDlgHBAAnalyzerPlayer::OnPaint()
 		int x = (rect.Width() - cxIcon + 1) / 2;
 		int y = (rect.Height() - cyIcon + 1) / 2;
 
-		// Draw the icon
 		dc.DrawIcon(x, y, m_hIcon);
-	}
-	else
-	{
-		CDialog::OnPaint();
+	} else {
+		
+        CDialog::OnPaint();
 	}
 }
 
-// The system calls this function to obtain the cursor to display while the user drags
-//  the minimized window.
-HCURSOR CDlgHBAAnalyzerPlayer::OnQueryDragIcon()
-{
-	return static_cast<HCURSOR>(m_hIcon);
+
+HCURSOR CDlgHBAAnalyzerPlayer::OnQueryDragIcon() {
+	
+    return static_cast<HCURSOR>(m_hIcon);
 }
 

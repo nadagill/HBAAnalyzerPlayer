@@ -1,29 +1,22 @@
-
-// DlgHBAAnalyzerPlayer.h : header file
-//
-
 #pragma once
 
+#include "resource.h"
 
-// CDlgHBAAnalyzerPlayer dialog
-class CDlgHBAAnalyzerPlayer : public CDialog
-{
-// Construction
+
+class CDlgHBAAnalyzerPlayer : public CDialog {
+
+private:
+    HICON m_hIcon;
+
 public:
-	CDlgHBAAnalyzerPlayer(CWnd* pParent = NULL);	// standard constructor
+	CDlgHBAAnalyzerPlayer(CWnd* pParent = NULL);
 
-// Dialog Data
-	enum { IDD = IDD_HBAANALYZERPLAYER_DIALOG };
+	enum {
+        IDD = IDD_HBAANALYZERPLAYER_DIALOG
+    };
 
-	protected:
-	virtual void DoDataExchange(CDataExchange* pDX);	// DDX/DDV support
-
-
-// Implementation
 protected:
-	HICON m_hIcon;
-
-	// Generated message map functions
+	virtual void DoDataExchange(CDataExchange* pDX);
 	virtual BOOL OnInitDialog();
 	afx_msg void OnPaint();
 	afx_msg HCURSOR OnQueryDragIcon();
