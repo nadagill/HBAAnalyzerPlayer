@@ -22,11 +22,23 @@
     <None Include="res\HBAAnalyzerPlayer.ico">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="res\bg_main.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_close.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_file_list_close.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_file_list_open.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_minimize.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="HBAAnalyzerPlayer.h">
-      <Filter>Header Files</Filter>
-    </ClInclude>
     <ClInclude Include="DlgHBAAnalyzerPlayer.h">
       <Filter>Header Files</Filter>
     </ClInclude>
@@ -39,15 +51,24 @@
     <ClInclude Include="Resource.h">
       <Filter>Header Files</Filter>
     </ClInclude>
+    <ClInclude Include="AppHBAAnalyzerPlayer.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="CtlBitmapButton.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
-    <ClCompile Include="HBAAnalyzerPlayer.cpp">
-      <Filter>Source Files</Filter>
-    </ClCompile>
     <ClCompile Include="DlgHBAAnalyzerPlayer.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
     <ClCompile Include="stdafx.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="AppHBAAnalyzerPlayer.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="CtlBitmapButton.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
   </ItemGroup>

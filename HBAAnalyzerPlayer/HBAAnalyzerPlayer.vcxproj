@@ -95,19 +95,26 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <None Include="ReadMe.txt" />
+    <None Include="res\bg_main.bmp" />
+    <None Include="res\bn_close.bmp" />
+    <None Include="res\bn_file_list_close.bmp" />
+    <None Include="res\bn_file_list_open.bmp" />
+    <None Include="res\bn_minimize.bmp" />
     <None Include="res\HBAAnalyzerPlayer.ico" />
     <None Include="res\HBAAnalyzerPlayer.rc2" />
   </ItemGroup>
   <ItemGroup>
+    <ClInclude Include="CtlBitmapButton.h" />
     <ClInclude Include="DlgHBAAnalyzerPlayer.h" />
-    <ClInclude Include="HBAAnalyzerPlayer.h" />
+    <ClInclude Include="AppHBAAnalyzerPlayer.h" />
     <ClInclude Include="Resource.h" />
     <ClInclude Include="stdafx.h" />
     <ClInclude Include="targetver.h" />
   </ItemGroup>
   <ItemGroup>
+    <ClCompile Include="CtlBitmapButton.cpp" />
     <ClCompile Include="DlgHBAAnalyzerPlayer.cpp" />
-    <ClCompile Include="HBAAnalyzerPlayer.cpp" />
+    <ClCompile Include="AppHBAAnalyzerPlayer.cpp" />
     <ClCompile Include="stdafx.cpp">
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">Create</PrecompiledHeader>
       <PrecompiledHeader Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">Create</PrecompiledHeader>
@@ -119,4 +126,9 @@
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
   </ImportGroup>
+  <ProjectExtensions>
+    <VisualStudio>
+      <UserProperties RESOURCE_FILE="HBAAnalyzerPlayer.rc" />
+    </VisualStudio>
+  </ProjectExtensions>
 </Project>
