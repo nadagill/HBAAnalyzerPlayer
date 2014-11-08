@@ -37,6 +37,39 @@
     <None Include="res\bn_minimize.bmp">
       <Filter>Resource Files</Filter>
     </None>
+    <None Include="res\bn_configure.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_file_open.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_forward.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_next_frame.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_pause.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_play.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_prev_file.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_prev_frame.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_rewind.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_stop.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
+    <None Include="res\bn_next_file.bmp">
+      <Filter>Resource Files</Filter>
+    </None>
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="DlgHBAAnalyzerPlayer.h">

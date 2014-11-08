@@ -97,9 +97,20 @@
     <None Include="ReadMe.txt" />
     <None Include="res\bg_main.bmp" />
     <None Include="res\bn_close.bmp" />
+    <None Include="res\bn_configure.bmp" />
     <None Include="res\bn_file_list_close.bmp" />
     <None Include="res\bn_file_list_open.bmp" />
+    <None Include="res\bn_file_open.bmp" />
+    <None Include="res\bn_forward.bmp" />
     <None Include="res\bn_minimize.bmp" />
+    <None Include="res\bn_next_file.bmp" />
+    <None Include="res\bn_next_frame.bmp" />
+    <None Include="res\bn_pause.bmp" />
+    <None Include="res\bn_play.bmp" />
+    <None Include="res\bn_prev_file.bmp" />
+    <None Include="res\bn_prev_frame.bmp" />
+    <None Include="res\bn_rewind.bmp" />
+    <None Include="res\bn_stop.bmp" />
     <None Include="res\HBAAnalyzerPlayer.ico" />
     <None Include="res\HBAAnalyzerPlayer.rc2" />
   </ItemGroup>

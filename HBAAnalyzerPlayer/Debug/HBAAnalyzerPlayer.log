@@ -1,19 +1,15 @@
-﻿Build started 2014-11-08 오전 6:24:08.
+﻿Build started 2014-11-08 오후 9:58:44.
      1>Project "Z:\Documents\Project\HBAAnalyzerPlayer\HBAAnalyzerPlayer\HBAAnalyzerPlayer.vcxproj" on node 2 (build target(s)).
      1>InitializeBuildStatus:
          Creating "Debug\HBAAnalyzerPlayer.unsuccessfulbuild" because "AlwaysCreate" was specified.
        ClCompile:
          All outputs are up-to-date.
-         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\HBAAnalyzerPlayer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt AppHBAAnalyzerPlayer.cpp DlgHBAAnalyzerPlayer.cpp
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /ZI /nologo /W3 /WX- /Od /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _UNICODE /D UNICODE /Gm /EHsc /RTC1 /MTd /GS /fp:precise /Zc:wchar_t /Zc:forScope /Yu"StdAfx.h" /Fp"Debug\HBAAnalyzerPlayer.pch" /Fo"Debug\\" /Fd"Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt DlgHBAAnalyzerPlayer.cpp
          DlgHBAAnalyzerPlayer.cpp
-         Generating Code...
-         Compiling...
-         AppHBAAnalyzerPlayer.cpp
-         Generating Code...
        ResourceCompile:
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /D _DEBUG /D _UNICODE /D UNICODE /l"0x0409" /IDebug\ /nologo /fo"Debug\HBAAnalyzerPlayer.res" HBAAnalyzerPlayer.rc 
        ManifestResourceCompile:
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HBAAnalyzerPlayer.exe.embed.manifest.res" Debug\HBAAnalyzerPlayer_manifest.rc 
        Link:
          C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Documents\Project\HBAAnalyzerPlayer\Debug\HBAAnalyzerPlayer.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\HBAAnalyzerPlayer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Documents\Project\HBAAnalyzerPlayer\Debug\HBAAnalyzerPlayer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Documents\Project\HBAAnalyzerPlayer\Debug\HBAAnalyzerPlayer.lib" /MACHINE:X86 Debug\HBAAnalyzerPlayer.res
          Debug\HBAAnalyzerPlayer.exe.embed.manifest.res
@@ -23,9 +19,14 @@
          Debug\stdafx.obj
        Manifest:
          c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"Debug\HBAAnalyzerPlayer.exe.embed.manifest" /manifest Debug\HBAAnalyzerPlayer.exe.intermediate.manifest "C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\Include\Manifest\dpiaware.manifest"
-         All outputs are up-to-date.
+         c:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"Debug\HBAAnalyzerPlayer.exe.embed.manifest.res" Debug\HBAAnalyzerPlayer_manifest.rc 
        LinkEmbedManifest:
-         All outputs are up-to-date.
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"Z:\Documents\Project\HBAAnalyzerPlayer\Debug\HBAAnalyzerPlayer.exe" /INCREMENTAL /NOLOGO /MANIFEST /ManifestFile:"Debug\HBAAnalyzerPlayer.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"Z:\Documents\Project\HBAAnalyzerPlayer\Debug\HBAAnalyzerPlayer.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /ENTRY:"wWinMainCRTStartup" /DYNAMICBASE /NXCOMPAT /IMPLIB:"Z:\Documents\Project\HBAAnalyzerPlayer\Debug\HBAAnalyzerPlayer.lib" /MACHINE:X86 Debug\HBAAnalyzerPlayer.res
+         Debug\HBAAnalyzerPlayer.exe.embed.manifest.res
+         Debug\CtlBitmapButton.obj
+         Debug\DlgHBAAnalyzerPlayer.obj
+         Debug\AppHBAAnalyzerPlayer.obj
+         Debug\stdafx.obj
          HBAAnalyzerPlayer.vcxproj -> Z:\Documents\Project\HBAAnalyzerPlayer\Debug\HBAAnalyzerPlayer.exe
        FinalizeBuildStatus:
          Deleting file "Debug\HBAAnalyzerPlayer.unsuccessfulbuild".
@@ -34,4 +35,4 @@
 
 Build succeeded.
 
-Time Elapsed 00:00:02.52
+Time Elapsed 00:00:04.80
